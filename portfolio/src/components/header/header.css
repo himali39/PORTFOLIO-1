@@ -1,0 +1,19 @@
+/* -------------------------------------------------------------------------- */
+/*                               Header section                               */
+/* -------------------------------------------------------------------------- */
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+#header .logo {
+  font-size: 28px;
+   font-weight: 600;
+  letter-spacing: 1px;
+  color:#fff !important;
+}
