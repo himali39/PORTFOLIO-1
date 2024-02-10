@@ -9,7 +9,7 @@ const ServiceBox = ({ icon, title, description }) => {
       <div className="service-box">
         <div className="mb-4">
           <span className="ico-circle">
-            {icon} {/* Here, the icon is passed as a prop */}
+            {icon} 
           </span>
         </div>
         <div className="service-content">

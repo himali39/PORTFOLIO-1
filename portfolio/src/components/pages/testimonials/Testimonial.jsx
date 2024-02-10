@@ -1,69 +1,69 @@
 import React from "react";
-import  testimonialImg from "../testimonials/testimonial.css"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Container, Row, Col } from "react-bootstrap";
+import testimonialImg1 from "../../../img/testi-1.jpg";
+import testimonialImg2 from "../../../img/testi-2.jpg"; 
+import SwiperCore, { Autoplay, Pagination } from "swiper/core";
+import "swiper/swiper-bundle.min.css";
+import "./testimonial.css";
+SwiperCore.use([Pagination, Autoplay]);
 
 const Testimonial = () => {
   return (
-    <div
-      class="testimonials paralax-mf bg-image"
-      //   style="background-image: url(assets/img/overlay-bg.jpg)"
-    >
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div
-              class="testimonials-slider swiper"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img
-                        src={testimonialImg}
-                        alt=""
-                        class="rounded-circle b-shadow-a"
-                      />
-                      <span class="author">Xavi Alonso</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
-                        at sem. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
+    <div id="testimonial" className="testimonial paralax-mf bg-image">
+      <div className="overlay-mf" />
+      <Container>
+        <Row>
+          <Col md={12}>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 5000 }}
+            data-aos="fade-up"
+            // data-aos-delay="100"
+            // loop={true}
+          >
+            <SwiperSlide>
+              <div className="testimonial-box">
+                <div className="author-test">
+                  <img src={testimonialImg1} className="rounded-circle" />
+                  <span className="author">Kelly Adams</span>
                 </div>
 
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img
-                        src="assets/img/testimonial-4.jpg"
-                        alt=""
-                        class="rounded-circle b-shadow-a"
-                      />
-                      <span class="author">Marta Socrate</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
-                        at sem. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
+                <div className="content-test">
+                  <p className="description lead">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam, id iusto. Eveniet distinctio repellendus mollitia.
+                  </p>
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
-            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-box">
+                <div className="author-test">
+                  <img
+                    src={testimonialImg2}
+                    alt=""
+                    className="rounded-circle b-shadow-a"
+                  />
+                  <span className="author">Zavi Alonso</span>
+                </div>
 
-            <div id="testimonial-mf" class="owl-carousel owl-theme"></div>
-          </div>
-        </div>
-      </div>
+                <div className="content-test">
+                  <p className="description lead">
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

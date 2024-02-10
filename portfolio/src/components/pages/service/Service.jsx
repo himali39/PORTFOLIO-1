@@ -2,7 +2,6 @@ import React from "react";
 import "./service.css";
 import { Col, Container, Row } from "react-bootstrap";
 import {
-  BsBarChart,
   BsBriefcase,
   BsCalendar2Week,
   BsCardList,
@@ -10,7 +9,6 @@ import {
   BsDiagram3Fill,
 } from "react-icons/bs";
 import ServiceBox from "./Servicebox";
-
 
 const Service = () => {
   return (

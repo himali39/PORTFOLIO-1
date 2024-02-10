@@ -46,14 +46,14 @@ const About = () => {
                   <div className="skill-mf">
                     <p className="title-s">Skill</p>
                     <span>HTML</span> <span>85%</span>
-                    <ProgressBar variant="warning" now={85} />
+                    <ProgressBar  now={85} />
                     <span>CSS3</span> <span className="pull-right">75%</span>
-                    <ProgressBar variant="warning" now={75} />
+                    <ProgressBar  now={75} />
                     <span>PHP</span> <span className="pull-right">65%</span>
-                    <ProgressBar variant="warning" now={75} />
+                    <ProgressBar  now={75} />
                     <span>JAVASCRIPT</span>
                     <span className="pull-right">85%</span>
-                    <ProgressBar variant="warning" now={90} />
+                    <ProgressBar  now={90} />
                   </div>
                 </Col>
                 <Col md={6}>
