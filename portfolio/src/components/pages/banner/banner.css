@@ -2,16 +2,15 @@
 # Banner Section
 --------------------------------------------------------------*/
 
-.hero {
+.banner {
   height: 100vh;
 }
 .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
 }
-
-.hero-content {
+.banner-content {
   position: absolute;
-  top: 0;
+  top: 12rem;
   left: 0;
   right: 0;
   bottom: 0;
@@ -22,24 +21,24 @@
   color: #fff;
 }
 
-.hero-title {
+.banner-title {
   font-size: 3rem;
   font-weight: 600;
 }
 
 @media (min-width: 768px) {
-  .hero-title {
+  .banner-title {
     font-size: 4.5rem;
   }
 }
 
-.hero-subtitle {
+.banner-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 @media (min-width: 768px) {
-  .hero-subtitle {
+  .banner-subtitle {
     font-size: 2.5rem;
   }
 }

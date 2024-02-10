@@ -1,0 +1,40 @@
+/* -------------------------------------------------------------------------- */
+/*                               Header section                               */
+/* -------------------------------------------------------------------------- */
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  /* padding: 20px 0; */
+  background-color: #000000;
+}
+#header.header-scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 12px 0;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.07rem !important;
+}
+
+#header .logo {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .nav-link {
+    color: #000000 !important;
+    padding: 10px 20px !important;
+  }
+  .navbar-collapse .collapse .active:before {
+    visibility: hidden;
+  }
+}
