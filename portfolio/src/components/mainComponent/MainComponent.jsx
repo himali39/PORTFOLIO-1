@@ -6,6 +6,8 @@ import Service from "../pages/service/Service";
 import Testimonial from "../pages/testimonials/Testimonial";
 import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
+import Counter from "../pages/service/Counter";
+import Blog from "../pages/blog/Blog";
 
 
 const MainComponent = () => {
@@ -15,8 +17,10 @@ const MainComponent = () => {
       <Banner />
       <About />
       <Service />
-      <Testimonial/>
+   
       <Portfolio/>
+      
+      <Blog/>
       <Contact/>
     </div>
   );

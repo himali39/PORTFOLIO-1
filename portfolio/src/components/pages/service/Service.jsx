@@ -6,9 +6,10 @@ import {
   BsCalendar2Week,
   BsCardList,
   BsCassette,
-  BsDiagram3Fill,
+  BsDiagram3,
 } from "react-icons/bs";
 import ServiceBox from "./Servicebox";
+import Counter from "./Counter";
 
 const Service = () => {
   return (
@@ -27,7 +28,7 @@ const Service = () => {
         </Row>
         <Row>
           <ServiceBox
-            icon={<BsDiagram3Fill />}
+            icon={<BsDiagram3 />}
             title="Web Design"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident."
           />
@@ -58,6 +59,7 @@ const Service = () => {
           />
         </Row>
       </Container>
+      <Counter />
     </div>
   );
 };

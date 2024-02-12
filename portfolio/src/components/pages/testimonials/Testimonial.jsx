@@ -21,8 +21,8 @@ const Testimonial = () => {
             pagination={{ clickable: true }}
             autoplay={{ delay: 5000 }}
             data-aos="fade-up"
-            // data-aos-delay="100"
-            // loop={true}
+            
+            loop={true}
           >
             <SwiperSlide>
               <div className="testimonial-box">

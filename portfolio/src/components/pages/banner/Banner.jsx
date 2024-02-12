@@ -1,7 +1,7 @@
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import bannerImage from "../../../img/Frame-2.png";
+import bannerImage from "../../../img/banner.jpg";
 import "./banner.css";
 
 const Banner = () => {
@@ -31,19 +31,15 @@ const Banner = () => {
         <Container>
           <p className="display-6 color-d text-white">Hello, world!</p>
           <h1 className="banner-title mb-4 text-3xl md:text-4.5xl font-semibold text-white">
-            I am Himali Patel
+            I am Mario Rossi
           </h1>
           <p className="banner-subtitle text-xl md:text-2.5xl font-semibold">
             <span className="banner-subtitle" ref={typedElement}></span>
           </p>
           <p className="pt-3">
-            <a
-              className="btn btn-primary btn js-scroll px-4"
-              href="#about"
-              role="button"
-            >
+            <Button variant="primary" href="#about" className="button-rouded">
               Learn More
-            </a>
+            </Button>
           </p>
         </Container>
       </div>

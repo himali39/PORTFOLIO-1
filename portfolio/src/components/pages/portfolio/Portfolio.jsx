@@ -8,6 +8,7 @@ import portImg6 from "../../../img/img-6.jpg";
 import PortfolioBox from "./PortfolioBox";
 import { Col, Container, Row } from "react-bootstrap";
 import "../portfolio/portfolio.css";
+import Testimonial from "../testimonials/Testimonial";
 
 const Portfolio = () => {
   return (
@@ -63,6 +64,7 @@ const Portfolio = () => {
           />
         </Row>
       </Container>
+      <Testimonial />
     </div>
   );
 };

@@ -1,6 +1,15 @@
 import React from "react";
 import "./contact.css";
-import { Col, Container, Form, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Navbar, Row } from "react-bootstrap";
+import {
+  BsGeoAlt,
+  BsTelephone,
+  BsEnvelope,
+  BsFacebook,
+  BsInstagram,
+  BsTwitter,
+  BsLinkedin,
+} from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -11,74 +20,64 @@ const Contact = () => {
       <div className="overlay-mf" />
       <Container>
         <Row>
-          <Col>
+          <Col sm={12}>
             <div className="contact-mf">
               <div id="contact" className="box-shadow-full">
-                <Col>
+                <Row>
                   <Col md={6}>
                     <div className="title-box-2">
                       <h5 className="title-left">Send Message Us</h5>
                     </div>
-                    <div>
-                      <Form>
-                        {/* your name */}
-                        <Form.Group
-                          className="mb-3"
-                          controlId="exampleForm.ControlInput1"
-                        >
-                          <Form.Control type="text" placeholder="Your Name" />
-                        </Form.Group>
-                        {/* end of code */}
 
-                        {/* your subject */}
-                        <Form.Group
-                          className="mb-3"
-                          controlId="exampleForm.ControlInput1"
-                        >
-                          <Form.Control
-                            type="text"
-                            placeholder="Your Subject"
-                          />
-                        </Form.Group>
-                        {/* end of code */}
+                    <Form>
+                      {/* your name */}
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Form.Control type="text" placeholder="Your Name" />
+                      </Form.Group>
+                      {/* end of code */}
 
-                        {/* your email */}
-                        <Form.Group
-                          className="mb-3"
-                          controlId="exampleForm.ControlInput1"
-                        >
-                          <Form.Control type="email" placeholder="Your Email" />
-                        </Form.Group>
-                        {/* end of the code */}
+                      {/* your subject */}
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Form.Control type="text" placeholder="Your Subject" />
+                      </Form.Group>
+                      {/* end of code */}
 
-                        <Form.Group
-                          className="mb-3"
-                          controlId="exampleForm.ControlTextarea1"
-                        >
-                          <Form.Control
-                            as="textarea"
-                            rows={3}
-                            placeholder="Message"
-                          />
-                        </Form.Group>
-                      </Form>
+                      {/* your email */}
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlInput1"
+                      >
+                        <Form.Control type="email" placeholder="Your Email" />
+                      </Form.Group>
+                      {/* end of the code */}
 
-                      <div className="col-md-12 text-center my-3">
-                        <div className="loading">Loading</div>
-                        <div className="error-message" />
-                        <div className="sent-message">
-                          Your message has been sent. Thank you!
-                        </div>
-                      </div>
-                      <div className="col-md-12 text-center">
-                        <button
-                          type="submit"
-                          className="button button-a button-big button-rouded"
-                        >
-                          Send Message
-                        </button>
-                      </div>
-                    </div>
+                      <Form.Group
+                        className="mb-3"
+                        controlId="exampleForm.ControlTextarea1"
+                      >
+                        <Form.Control
+                          as="textarea"
+                          rows={3}
+                          placeholder="Message"
+                        />
+                      </Form.Group>
+                    </Form>
+
+                    <Col md={12} className="text-center">
+                      <Button
+                        variant="primary"
+                        type="submit"
+                        className="button-rouded"
+                      >
+                        Send Message
+                      </Button>
+                    </Col>
                   </Col>
                   <Col md={6}>
                     <div className="title-box-2 pt-4 pt-md-0">
@@ -93,52 +92,62 @@ const Contact = () => {
                       </p>
                       <ul className="list-ico">
                         <li>
-                          <span className="bi bi-geo-alt" /> 329 WASHINGTON ST
-                          BOSTON, MA 02108
+                          <span>
+                            <BsGeoAlt />
+                          </span>
+                          7140 S. Fordham St. Bronx, NY 10452
                         </li>
                         <li>
-                          <span className="bi bi-phone" /> (617) 557-0089
+                          <span>
+                            <BsTelephone />
+                          </span>
+                          518-331-1142
                         </li>
                         <li>
-                          <span className="bi bi-envelope" />{" "}
+                          <span>
+                            <BsEnvelope />
+                          </span>
                           contact@example.com
                         </li>
                       </ul>
                     </div>
-                    {/* <div className="socials">
+                    <div className="socials">
                       <ul>
                         <li>
-                          <a href>
-                            <span className="ico-circle">
-                              <i className="bi bi-facebook" />
-                            </span>
-                          </a>
+                          <Navbar.Text className="ico-circle">
+                            <a href="https://www.facebook.com/" target="_blank">
+                              <BsFacebook />
+                            </a>
+                          </Navbar.Text>
                         </li>
                         <li>
-                          <a href>
-                            <span className="ico-circle">
-                              <i className="bi bi-instagram" />
-                            </span>
-                          </a>
+                          <Navbar.Text className="ico-circle">
+                            <a
+                              href="https://www.instagram.com/"
+                              target="_blank"
+                            >
+                              <BsInstagram />
+                            </a>
+                          </Navbar.Text>
                         </li>
                         <li>
-                          <a href>
-                            <span className="ico-circle">
-                              <i className="bi bi-twitter" />
-                            </span>
-                          </a>
+                          <Navbar.Text className="ico-circle">
+                            <a href="https://www.twitter.com/" target="_blank">
+                              <BsTwitter />
+                            </a>
+                          </Navbar.Text>
                         </li>
                         <li>
-                          <a href>
-                            <span className="ico-circle">
-                              <i className="bi bi-linkedin" />
-                            </span>
-                          </a>
+                          <Navbar.Text className="ico-circle">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                              <BsLinkedin />
+                            </a>
+                          </Navbar.Text>
                         </li>
                       </ul>
-                    </div> */}
+                    </div>
                   </Col>
-                </Col>
+                </Row>
               </div>
             </div>
           </Col>

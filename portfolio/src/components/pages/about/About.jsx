@@ -1,12 +1,12 @@
 import React from "react";
 import "./about.css";
-import aboutImage from "../../../img/person-about.jpg";
+import aboutImage from "../../../img/about.jpg";
 import { Col, Container, ProgressBar, Row } from "react-bootstrap";
 
 const About = () => {
   return (
     <div id="about" className="about-mf sect-pt4 route">
-      <Container >
+      <Container>
         <Row>
           <Col sm={12}>
             <Col className="box-shadow-full">
@@ -26,7 +26,7 @@ const About = () => {
                       <div className="about-info">
                         <p>
                           <span className="title-s">Name: </span>
-                          <span>Morgan Freeman</span>
+                          <span>Mario Rossi</span>
                         </p>
                         <p>
                           <span className="title-s">Profile: </span>
@@ -38,7 +38,7 @@ const About = () => {
                         </p>
                         <p>
                           <span className="title-s">Phone: </span>
-                          <span>(617) 557-0089</span>
+                          <span>518-331-1142</span>
                         </p>
                       </div>
                     </Col>
@@ -46,14 +46,14 @@ const About = () => {
                   <div className="skill-mf">
                     <p className="title-s">Skill</p>
                     <span>HTML</span> <span>85%</span>
-                    <ProgressBar  now={85} />
+                    <ProgressBar now={85} />
                     <span>CSS3</span> <span className="pull-right">75%</span>
-                    <ProgressBar  now={75} />
+                    <ProgressBar now={75} />
                     <span>PHP</span> <span className="pull-right">65%</span>
-                    <ProgressBar  now={75} />
+                    <ProgressBar now={75} />
                     <span>JAVASCRIPT</span>
                     <span className="pull-right">85%</span>
-                    <ProgressBar  now={90} />
+                    <ProgressBar now={90} />
                   </div>
                 </Col>
                 <Col md={6}>
@@ -76,7 +76,13 @@ const About = () => {
                     </p>
 
                     <p className="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam atque pariatur optio quibusdam recusandae eveniet magnam ducimus ipsum. Cumque et libero quidem maxime eligendi accusamus ipsa sed id nam velit? Recusandae aut cumque, voluptatem, nisi sapiente minus illum, optio laudantium nam alias amet est animi deleniti sed expedita provident.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Facere quisquam atque pariatur optio quibusdam recusandae
+                      eveniet magnam ducimus ipsum. Cumque et libero quidem
+                      maxime eligendi accusamus ipsa sed id nam velit?
+                      Recusandae aut cumque, voluptatem, nisi sapiente minus
+                      illum, optio laudantium nam alias amet est animi deleniti
+                      sed expedita provident.
                     </p>
                   </div>
                 </Col>
