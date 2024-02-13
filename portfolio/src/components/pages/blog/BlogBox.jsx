@@ -8,7 +8,7 @@ const BlogBox = ({ img, category, title, des, footerImg, min }) => {
     <Col md={4}>
       <div className="card card-blog">
         <div className="card-img">
-          <a href="">{<img src={img} alt className="img-fluid" />}</a>
+          <a href="">{<img src={img} alt="image" className="img-fluid" />}</a>
         </div>
         <Card.Body className="card-body">
           <div className="card-category-box">

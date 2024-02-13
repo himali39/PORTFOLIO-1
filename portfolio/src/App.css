@@ -10,13 +10,13 @@ body {
   color: #4e4e4e;
 }
 
-.nav-link {
+ .nav-link {
   color: #1e1e1e;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
-}
+}  
 
-.nav-link:hover {
+ .nav-link:hover {
   color: #0078ff;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
@@ -70,8 +70,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* background-position: center center; */
-}
+ }
 
 @media (max-width: 1024px) {
   .bg-image {
