@@ -59,7 +59,7 @@ const About = () => {
                 <Col md={6}>
                   <div className="about-me pt-4 pt-md-0">
                     <div className="title-box-2">
-                      <h5 className="title-left">About me</h5>
+                      <h5 className="title-left fs-1">About me</h5>
                     </div>
                     <p className="lead">
                       Curabitur non nulla sit amet nisl tempus convallis quis ac
