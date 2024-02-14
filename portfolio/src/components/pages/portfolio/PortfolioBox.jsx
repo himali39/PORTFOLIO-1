@@ -2,15 +2,14 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "../portfolio/portfolio.css";
 
-const PortfolioBox = ({img,title,category,date}) => {
+const PortfolioBox = ({ img, title, category, date }) => {
   return (
     <Col md={4}>
       <div className="work-box">
-        
-          <div className="work-img">
-            {<img src={img} alt="" className="img-fluid" />}
-          </div>
-      
+        <div className="work-img">
+          {<img src={img} alt="" className="img-fluid" />}
+        </div>
+
         <div className="work-content">
           <Row>
             <Col sm={8}>
@@ -20,13 +19,6 @@ const PortfolioBox = ({img,title,category,date}) => {
                 <span className="w-date">{date}</span>
               </div>
             </Col>
-            {/* <Col sm={4}>
-              <div className="w-like">
-                <a href="portfolio-details.html">
-                  <span className="bi bi-plus-circle" />
-                </a>
-              </div>
-            </Col> */}
           </Row>
         </div>
       </div>

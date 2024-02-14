@@ -1,10 +1,10 @@
 import React from "react";
-import portImg1 from "../../../img/img-1.jpg";
-import portImg2 from "../../../img/img-2.jpg";
-import portImg3 from "../../../img/img.webp";
-import portImg4 from "../../../img/img-4.jpg";
-import portImg5 from "../../../img/img-5.jpg";
-import portImg6 from "../../../img/img-6.jpg";
+import portImg1 from "../../../img/portfolio-1.jpg";
+import portImg2 from "../../../img/portfolio-2.jpg";
+import portImg3 from "../../../img/portfolio-3.jpg";
+import portImg4 from "../../../img/portfolio-4.jpg";
+import portImg5 from "../../../img/portfolio-5.jpg";
+import portImg6 from "../../../img/portfolio-5.jpg";
 import PortfolioBox from "./PortfolioBox";
 import { Col, Container, Row } from "react-bootstrap";
 import "../portfolio/portfolio.css";

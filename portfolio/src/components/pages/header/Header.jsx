@@ -24,7 +24,12 @@ const Header = () => {
 
   const handleNavClose = () => {
     document.querySelector(".navbar-toggler").click();
-    window.dispatchEvent(new Event("click"));
+  };
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -62,6 +67,12 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      {/* Scroll to Top Button */}
+      {isScrolled && (
+        <Button className="d-flex scroll-to-top-button" onClick={scrollToTop}>
+          &#8593;
+        </Button>
+      )}
     </div>
   );
 };

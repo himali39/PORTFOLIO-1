@@ -22,10 +22,10 @@ const BlogBox = ({ img, category, title, des, footerImg, min }) => {
           <Card.Text className="card-description">{des}</Card.Text>
         </Card.Body>
 
-        <footer className="card-footer">
+        <div className="card-footer">
           <div className="post-author">
             <Card.Link href="#banner" className="text-decoration-none">
-              {<img src={footerImg} alt className="rounded-circle" />}
+              {<img src={footerImg} alt="" className="rounded-circle" />}
               <span className="author">Mario Rossi</span>
             </Card.Link>
           </div>
@@ -33,7 +33,7 @@ const BlogBox = ({ img, category, title, des, footerImg, min }) => {
             <BsClock />
             <span className="ms-1">{min}</span>
           </div>
-        </footer>
+        </div>
       </div>
     </Col>
   );
