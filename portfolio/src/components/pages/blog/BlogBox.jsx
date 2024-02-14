@@ -16,7 +16,7 @@ const BlogBox = ({ img, category, title, des, footerImg, min }) => {
               <h6 className="category">{category}</h6>
             </div>
           </div>
-          <Card.Link className="fs-5 mt-2 text-decoration-none" href="#">
+          <Card.Link className="fs-5 mt-2 text-decoration-none" href="#banner">
             {title}
           </Card.Link>
           <Card.Text className="card-description">{des}</Card.Text>
