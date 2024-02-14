@@ -21,7 +21,7 @@ const Contact = () => {
       <Container>
         <Row>
           <Col sm={12}>
-            <div className="contact-mf">
+            <div className="mt-4">
               <div id="contact" className="box-shadow-full">
                 <Row>
                   <Col md={6}>
@@ -111,11 +111,15 @@ const Contact = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="socials">
+                    <div className="socials pt-3">
                       <ul>
                         <li>
                           <Navbar.Text className="ico-circle">
-                            <a href="https://www.facebook.com/" target="_blank">
+                            <a
+                              href="https://www.facebook.com/"
+                              target="_blank"
+                              className="mt-2"
+                            >
                               <BsFacebook />
                             </a>
                           </Navbar.Text>
