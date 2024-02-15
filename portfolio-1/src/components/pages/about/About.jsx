@@ -9,12 +9,20 @@ const About = () => {
       <Container>
         <Row>
           <Col sm={12}>
-            <Col className="box-shadow-full pb-5">
+            <Col
+              className="box-shadow-full pb-5 "
+
+              // data-aos-delay="300"
+            >
               <Row>
                 <Col md={6}>
                   <Row>
                     <Col sm={6} md={5}>
-                      <div className="about-img mb-5">
+                      <div
+                        className="about-img mb-5"
+                       
+                        // data-aos-duration="1000"
+                      >
                         <img
                           src={aboutImage}
                           className="img-fluid rounded b-shadow-a ms-2"
@@ -62,11 +70,11 @@ const About = () => {
                       <h5 className="title-left fs-1">About me</h5>
                     </div>
                     <p className="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac
-                      lectus. Curabitur arcu erat, accumsan id imperdiet et,
-                      porttitor at sem. Praesent sapien massa, convallis a
-                      pellentesque nec, egestas non nisi. Nulla porttitor
-                      accumsan tincidunt.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nisi commodi molestias minima neque facilis eveniet
+                      explicabo pariatur non cum earum iste voluptate magni
+                      placeat, officiis odio, perferendis natus deserunt
+                      delectus.
                     </p>
 
                     <p className="lead">

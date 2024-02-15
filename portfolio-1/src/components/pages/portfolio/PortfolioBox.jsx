@@ -2,24 +2,21 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "../portfolio/portfolio.css";
 
-const PortfolioBox = ({ img, title, category, date }) => {
+const PortfolioBox = ({ img, title, category }) => {
   return (
-    <Col md={4}>
-      <div className="work-box">
-        <div className="work-img">
-          {<img src={img} alt="" className="img-fluid" />}
-        </div>
-
-        <div className="work-content">
-          <Row>
-            <Col sm={8}>
-              <h2 className="w-title">{title}</h2>
-              <div className="w-more">
-                <span className="w-ctegory">{category}</span> /
-                <span className="w-date">{date}</span>
-              </div>
-            </Col>
-          </Row>
+    <Col md={4} className="portfolio-item">
+      <div className="work-content">
+        <div className="portfolio-hover">
+          <img src={img} className="img-fluid" alt="" />
+          <div className="portfolio-info">
+            <h4>{title}</h4>
+            <p>{category}</p>
+            <a
+              href
+              data-gallery="portfolioGallery"
+              className="portfolio-lightbox preview-link"
+            ></a>
+          </div>
         </div>
       </div>
     </Col>
