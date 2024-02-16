@@ -35,7 +35,7 @@ const Blog = () => {
             img={blog2}
             category="Travel"
             title="See more ideas about Travel"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga porro asperiores commodi Dignissimos fuga consectetur voluptate repellendus. "
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga porro asperiores commodi Dignissimos fuga consectetur voluptate repellendus dolor yu. "
             footerImg={authorImg}
             min="8 min"
           />

@@ -13,7 +13,7 @@ import Counter from "./Counter";
 
 const Service = () => {
   return (
-    <div id="services" className="services-mf pt-5 route">
+    <div id="services" className="services-mf sect-pt4 route">
       <Container>
         <Row>
           <Col sm={12}>
