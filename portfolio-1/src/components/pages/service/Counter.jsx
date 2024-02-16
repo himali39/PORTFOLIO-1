@@ -30,7 +30,7 @@ const Counter = () => {
                     </div>
                   )}
                 </CountUp>
-                <span className="counter-text fs-5">WORKS COMPLETED</span>
+                <span className="counter-text fs-5">PROJECTS</span>
               </div>
             </div>
           </Col>
@@ -49,7 +49,7 @@ const Counter = () => {
                     </div>
                   )}
                 </CountUp>
-                <span className="counter-text fs-5">YEARS OF EXPERIENCE</span>
+                <span className="counter-text fs-5">HOURS OF SUPPORTS</span>
               </div>
             </div>
           </Col>
@@ -68,7 +68,7 @@ const Counter = () => {
                     </div>
                   )}
                 </CountUp>
-                <span className="counter-text fs-5">TOTAL CLIENTS</span>
+                <span className="counter-text fs-5">CLIENTS</span>
               </div>
             </div>
           </Col>

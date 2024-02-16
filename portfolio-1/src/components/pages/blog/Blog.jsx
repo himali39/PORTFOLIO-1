@@ -14,8 +14,8 @@ const Blog = () => {
         <Row>
           <Col sm={12}>
             <div className="title-box text-center">
-              <h3 className="title-a">Blog</h3>
-              <p className="subtitle-a">
+              <h3 className="title-a title-left mb-0">Blog</h3>
+              <p className="subtitle-a mt-4">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
               <div className="line-mf" />
@@ -35,7 +35,7 @@ const Blog = () => {
             img={blog2}
             category="Travel"
             title="See more ideas about Travel"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga porro asperiores commodi Dignissimos fuga consectetur voluptate repellendus. Nam dolore dolor cumque."
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga porro asperiores commodi Dignissimos fuga consectetur voluptate repellendus. "
             footerImg={authorImg}
             min="8 min"
           />

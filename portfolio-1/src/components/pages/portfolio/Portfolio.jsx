@@ -12,13 +12,13 @@ import Testimonial from "../testimonials/Testimonial";
 
 const Portfolio = () => {
   return (
-    <div id="work" className="portfolio-mf sect-pt4 route">
+    <div id="portfolio" className="portfolio-mf sect-pt4 route">
       <Container>
         <Row>
           <Col sm={12}>
-            <div className="title-box text-center">
-              <h3 className="title-a">Portfolio</h3>
-              <p className="subtitle-a">
+            <div className="text-center">
+              <h3 className="title-a mb-0 title-left ">Portfolio</h3>
+              <p className="subtitle-a mt-4">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
               <div className="line-mf" />

@@ -5,7 +5,7 @@ import "../portfolio/portfolio.css";
 const PortfolioBox = ({ img, title, category }) => {
   return (
     <Col md={4} className="portfolio-item">
-      <div className="work-content">
+      <div className="portfolio-content">
         <div className="portfolio-hover">
           <img src={img} className="img-fluid" alt="" />
           <div className="portfolio-info">

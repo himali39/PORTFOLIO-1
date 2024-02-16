@@ -34,7 +34,7 @@
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color:var(--main-color);
   border-radius: 4px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .card-blog .card-description {
-  color: #4e4e4e;
+  color:var(--des-color);
 }
 
 .card-blog .post-author {
@@ -56,7 +56,7 @@
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  color: var(--des-color);
   display: inline-block;
   float: right;
 }

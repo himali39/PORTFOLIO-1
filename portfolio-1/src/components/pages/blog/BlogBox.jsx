@@ -16,18 +16,18 @@ const BlogBox = ({ img, category, title, des, footerImg, min }) => {
               <h6 className="category">{category}</h6>
             </div>
           </div>
-          <Card.Link className="fs-5 mt-2 text-decoration-none" href="#banner">
+          <Card.Text className="fs-5 mt-2 text-decoration-none" href="#banner">
             {title}
-          </Card.Link>
+          </Card.Text>
           <Card.Text className="card-description">{des}</Card.Text>
         </Card.Body>
 
         <div className="card-footer">
           <div className="post-author">
-            <Card.Link href="#banner" className="text-decoration-none">
-              {<img src={footerImg} alt="" className="rounded-circle" />}
-              <span className="author">Mario Rossi</span>
-            </Card.Link>
+            <Card.Text href="#banner" className="text-decoration-none">
+              {<img src={footerImg} alt="" className="rounded-circle " />}
+              <span className="author ms-2">Mario Rossi</span>
+            </Card.Text>
           </div>
           <div className="post-date">
             <BsClock />

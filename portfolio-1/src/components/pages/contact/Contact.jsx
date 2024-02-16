@@ -70,11 +70,7 @@ const Contact = () => {
                     </Form>
 
                     <Col md={12} className="text-center">
-                      <Button
-                        variant="primary"
-                        type="submit"
-                        className="button-rouded"
-                      >
+                      <Button type="submit" className="button-rouded maincolor">
                         Send Message
                       </Button>
                     </Col>

@@ -8,7 +8,7 @@
 .testimonial {
   background-image: url(../../../img/testibg.jpg);
   background-position: center center;
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 .testimonial-box .author-test img {
@@ -30,14 +30,19 @@
   height: 12px;
 }
 
+.swiper-container {
+  padding: 20px !important;
+}
 .swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: -7px;
+  left: 5px;
   color: #ffff !important;
 }
 .swiper-pagination-bullet-active {
   background-color: #ffff;
   opacity: 0.7;
 }
+
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;

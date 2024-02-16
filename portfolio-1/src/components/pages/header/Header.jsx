@@ -40,7 +40,7 @@ const Header = () => {
       <Navbar expand="lg" className={isScrolled ? "bg-black" : ""}>
         <Container>
           <Navbar.Brand href="#banner" className="logo">
-            DevWorksFolio
+            Mario Rossi
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -54,7 +54,7 @@ const Header = () => {
               <Nav.Link href="#services" onClick={handleNavClose}>
                 Service
               </Nav.Link>
-              <Nav.Link href="#work" onClick={handleNavClose}>
+              <Nav.Link href="#portfolio" onClick={handleNavClose}>
                 Portfolio
               </Nav.Link>
               <Nav.Link href="#blog" onClick={handleNavClose}>
@@ -69,7 +69,10 @@ const Header = () => {
       </Navbar>
       {/* Scroll to Top Button */}
       {isScrolled && (
-        <Button className="d-flex scroll-to-top-button" onClick={scrollToTop}>
+        <Button
+          className="d-flex scroll-to-top-button maincolor"
+          onClick={scrollToTop}
+        >
           &#8593;
         </Button>
       )}

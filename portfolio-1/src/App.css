@@ -1,3 +1,8 @@
+:root {
+  --main-color: #34b7a7;
+  --des-color: #4e4e4e;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,9 +12,12 @@
 
 body {
   background-color: #f5f5f5;
-  color: #4e4e4e;
+  color: var(--des-color);
 }
-
+.maincolor {
+  background-color: var(--main-color) !important;
+  border: none !important;
+}
 .nav-link {
   color: #1e1e1e;
   text-decoration: none;
@@ -17,7 +25,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #0078ff;
+  color: var(--main-color);
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -33,7 +41,7 @@ body {
 
 .box-shadow,
 .card-blog,
-.work-box,
+.portfolio-box,
 .service-box,
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
@@ -70,7 +78,7 @@ body {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: var(--main-color);
 }
 
 .overlay-mf {
@@ -132,7 +140,7 @@ body {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: var(--des-color);
 }
 
 /*--/ Title Left /--*/
@@ -149,7 +157,7 @@ body {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: var(--main-color);
   width: 100px;
   bottom: -12px;
 }
@@ -163,7 +171,7 @@ body {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color:var(--main-color);
   margin-right: 10px;
 }
 /*------/ Ico Circle /------*/
@@ -175,7 +183,7 @@ body {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #34b7a7;
   display: block;
 }
 

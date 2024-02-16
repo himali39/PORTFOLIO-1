@@ -15,11 +15,11 @@ const Footer = () => {
               <div className="credits">
                 Designed by
                 <a
-                  href="https://www.idea2code.com/"
+                  href="https://idea2codeinfotech.com/"
                   className="text-decoration-none ms-1"
+                  target="_blank"
                 >
-                  
-                  idea2code
+                  idea2codeInfotech
                 </a>
               </div>
             </div>

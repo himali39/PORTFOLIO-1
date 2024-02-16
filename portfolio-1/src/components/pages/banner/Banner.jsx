@@ -34,9 +34,9 @@ const Banner = () => {
           <p className="banner-subtitle">
             <span className="banner-subtitle" ref={typedElement}></span>
           </p>
-          <p className="pt-3">
-            <Button variant="primary" href="#about" className="button-rouded">
-              Learn More
+          <p className="pt-3 ">
+            <Button href="#about" className="button-rouded  border-none maincolor">
+             More About Me
             </Button>
           </p>
         </Container>

@@ -7,12 +7,10 @@ import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
 import Blog from "../pages/blog/Blog";
 import Footer from "../pages/footer/Footer";
-import { Button } from "react-bootstrap";
 
 const MainComponent = () => {
-  
   return (
-    <div>
+    <>
       <Header />
       <Banner />
       <About />
@@ -20,9 +18,8 @@ const MainComponent = () => {
       <Portfolio />
       <Blog />
       <Contact />
-      
       <Footer />
-    </div>
+    </>
   );
 };
 

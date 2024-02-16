@@ -18,8 +18,8 @@ const Service = () => {
         <Row>
           <Col sm={12}>
             <div className="title-box text-center">
-              <h3 className="title-a">Services</h3>
-              <p className="subtitle-a">
+              <h3 className="title-a title-left mb-0">Services</h3>
+              <p className="subtitle-a mt-4">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
               <div className="w-40 h-5 bg-blue-500 mx-auto" />
