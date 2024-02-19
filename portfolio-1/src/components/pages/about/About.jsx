@@ -9,10 +9,11 @@ const About = () => {
       <Container>
         <Row>
           <Col sm={12}>
-            <Col className="box-shadow-full pb-5 ">
+            <Col className="box-shadow-full pb-5">
               <Row>
                 <Col md={6}>
-                  <div className="about-img ">
+                  <div className="about-img">
+                    
                     <img
                       src={aboutImage}
                       className="img-fluid rounded b-shadow-a "
