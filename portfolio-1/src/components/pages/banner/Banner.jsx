@@ -29,7 +29,7 @@ const Banner = () => {
       <div className="overlay-itro"></div>
       <div className="banner-content text-center">
         <Container>
-          <p className="display-6 color-d text-white">Hello, world!</p>
+          <p className="display-6 color-d text-white">Hello,world!</p>
           <h1 className="banner-title ">I am Mario Rossi</h1>
           <p className="banner-subtitle">
             <span className="banner-subtitle" ref={typedElement}></span>
