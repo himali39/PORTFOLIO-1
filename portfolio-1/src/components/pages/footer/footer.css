@@ -12,11 +12,7 @@ footer .copyright {
   margin-bottom: 0.3rem;
 }
 
-footer .credits {
-  margin-bottom: 0;
- 
-}
-
-footer .credits a {
+footer .copyright a {
   color: #fff;
+  margin-right: 8px;
 }
