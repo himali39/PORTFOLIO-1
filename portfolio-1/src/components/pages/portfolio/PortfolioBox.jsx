@@ -12,7 +12,7 @@ const PortfolioBox = ({ img, title, category }) => {
             <h4>{title}</h4>
             <p>{category}</p>
             <a
-              href
+              href=""
               data-gallery="portfolioGallery"
               className="portfolio-lightbox preview-link"
             ></a>
