@@ -31,11 +31,7 @@ const Contact = () => {
 
                     <Form>
                       {/* your name */}
-                      <Form.Group
-                        className="mb-3"
-                        controlId="name"
-                        name="name"
-                      >
+                      <Form.Group className="mb-3" controlId="name" name="name">
                         <Form.Control type="text" placeholder="Your Name" />
                       </Form.Group>
                       {/* end of code */}
@@ -74,7 +70,10 @@ const Contact = () => {
                     </Form>
 
                     <Col md={12} className="text-center">
-                      <Button type="submit" className="button-rouded maincolor">
+                      <Button
+                        type="submit"
+                        className="button-rouded mainbutton"
+                      >
                         Send Message
                       </Button>
                     </Col>
