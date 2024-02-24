@@ -1,6 +1,7 @@
 :root {
   --main-color: #00b4d9;
   --des-color: #4e4e4e;
+  --hover-color: #00b4d98a;
 }
 
 * {
@@ -14,7 +15,20 @@ body {
   background-color: #f5f5f5;
   color: var(--des-color);
 }
+.mainbutton {
+  background-color: var(--main-color);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.5s;
+}
 
+.mainbutton:hover {
+  background-color: var(--hover-color);
+}
 .nav-link {
   color: #1e1e1e;
   text-decoration: none;
@@ -219,4 +233,22 @@ body {
    .bg-image {
     background-position: right;
   }
+}
+a:hover {
+  cursor: pointer;
+}
+
+.zoom-cursor {
+  width: 40px;
+  height: 40px;
+  background-color: #00b4d9cc;
+  /* border: 2px solid #fff; */
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  /* mix-blend-mode: difference; */
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.2s ease-out;
+  will-change: transform;
 }

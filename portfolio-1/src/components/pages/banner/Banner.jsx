@@ -41,14 +41,11 @@ const Banner = () => {
           <p className="banner-subtitle">
             <span className="banner-subtitle" ref={typedElement}></span>
           </p>
-          <p className="pt-3 ">
-            <Button
-              href="#about"
-              className="button-rouded  border-none mainbutton"
-            >
+          <div className="pt-3 ">
+            <a href="#about" className="mainbutton">
               More About Me
-            </Button>
-          </p>
+            </a>
+          </div>
         </Container>
       </div>
     </div>

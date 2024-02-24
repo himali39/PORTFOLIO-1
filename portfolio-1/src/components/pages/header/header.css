@@ -40,8 +40,12 @@
   transform: scaleY(1);
 }
 
-#header .navbar-nav .nav-link.active::after {
-  transform: scaleY(1);
+#header .navbar-nav .nav-link:hover {
+  color: var(--hover-color);
+}
+.menu-icon {
+  margin-right: 8px;
+  color: var(--main-color);
 }
 .scroll-to-top-button {
   position: fixed;
@@ -60,7 +64,7 @@
 }
 
 .scroll-to-top-button:hover {
-  background-color: var(--main-color);
+  background-color: var(--hover-color);
 }
 @media (max-width: 768px) {
   .navbar-collapse {

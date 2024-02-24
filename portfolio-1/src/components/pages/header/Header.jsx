@@ -4,6 +4,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./header.css";
 import { Button } from "react-bootstrap";
+import {
+  FaAddressCard,
+  FaBlogger,
+  FaHome,
+  FaRegNewspaper,
+  FaUserPlus,
+  FaWpforms,
+} from "react-icons/fa";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,21 +54,39 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#banner" onClick={handleNavClose}>
+                <span className="menu-icon">
+                  <FaHome />
+                </span>
                 Home
               </Nav.Link>
               <Nav.Link href="#about" onClick={handleNavClose}>
+                <span className="menu-icon">
+                  <FaAddressCard />
+                </span>
                 About
               </Nav.Link>
               <Nav.Link href="#services" onClick={handleNavClose}>
+                <span className="menu-icon">
+                  <FaUserPlus />
+                </span>
                 Service
               </Nav.Link>
               <Nav.Link href="#portfolio" onClick={handleNavClose}>
+                <span className="menu-icon">
+                  <FaRegNewspaper />
+                </span>
                 Portfolio
               </Nav.Link>
               <Nav.Link href="#blog" onClick={handleNavClose}>
+                <span className="menu-icon">
+                  <FaBlogger />
+                </span>
                 Blog
               </Nav.Link>
               <Nav.Link href="#contact" onClick={handleNavClose}>
+                <span className="menu-icon">
+                  <FaWpforms />
+                </span>
                 Contact
               </Nav.Link>
             </Nav>
@@ -68,14 +94,14 @@ const Header = () => {
         </Container>
       </Navbar>
       {/* Scroll to Top Button */}
-      {/* {isScrolled && (
+      {isScrolled && (
         <Button
           className="d-flex scroll-to-top-button maincolor"
           onClick={scrollToTop}
         >
           &#8593;
         </Button>
-      )} */}
+      )}
     </div>
   );
 };

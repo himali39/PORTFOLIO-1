@@ -70,12 +70,9 @@ const Contact = () => {
                     </Form>
 
                     <Col md={12} className="text-center">
-                      <Button
-                        type="submit"
-                        className="button-rouded mainbutton"
-                      >
+                      <a type="submit" href="#banner" className="mainbutton">
                         Send Message
-                      </Button>
+                      </a>
                     </Col>
                   </Col>
                   <Col md={6} data-aos="fade-right">
@@ -106,7 +103,9 @@ const Contact = () => {
                           <span>
                             <BsEnvelope />
                           </span>
-                          contact@example.com
+                          <a href="#" className="contact-link" target="_black">
+                            contact@example.com
+                          </a>
                         </li>
                       </ul>
                     </div>
